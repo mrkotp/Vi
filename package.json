@@ -1,0 +1,17 @@
+{
+  "name": "autocannon-runner",
+  "version": "1.0.0",
+  "description": "24/7 Autocannon runner for Render",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "autocannon": "^7.15.0",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
